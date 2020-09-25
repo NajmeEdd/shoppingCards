@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap");
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-2 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.col-2 img {
+  max-width: 500px;
+  padding: 50px 0;
+}
+
+.col-2 h2 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+.button {
+  display: inline-block;
+  background: turquoise;
+  color: #fff;
+  border-radius: 30px;
+  margin: 30px 0;
+  padding: 8px 30px;
+}
+.button :hover {
+  background: rgb(94, 2, 94);
+}
+.models {
+  margin: 70px 0;
+}
+.col-3 {
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+.col-3 img {
+  width: 50%;
+}
+.container-two {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.container-two {
+  flex-basis: 25px;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+}
+.col-4 img {
+  width: 100px;
+}
+/* iphone 11  */
+.cnt {
+  width: 35px;
+  text-align: center;
+}
+.card {
+  border: none !important ;
+}
+.total-money-count {
+  text-align: center;
+}
+.card-title {
+  text-align: center;
+  font-family: "Tajawal", sans-serif;
+}
